@@ -448,7 +448,7 @@ button {
 
 .titlepage h2 {
      font-size: 40px;
-     color: #02246a;
+     color: #C4C4C4;
      line-height: 55px;
      padding: 0;
 }
@@ -478,7 +478,7 @@ button {
 }
 
 .read_more:hover {
-     background: #02246a;
+     background: #C4C4C4;
      color: #fff;
      transition: ease-in all 0.5s;
 }
@@ -515,7 +515,7 @@ button {
 }
 
 .team .titlepage strong {
-     color: #02246a;
+     color: #C4C4C4;
      font-size: 40px;
      line-height: 35px;
      font-weight: bold;
@@ -558,7 +558,7 @@ button {
 }
 
 .services .services_box i {
-     background-color: #02246a;
+     background-color: #C4C4C4;
      height: 143px;
      width: 143px;
      border-radius: 70px;
@@ -570,7 +570,7 @@ button {
 }
 
 .services .services_box h3 {
-     color: #02246a;
+     color: #C4C4C4;
      font-size: 25px;
      line-height: 20px;
      font-weight: 500;
@@ -663,7 +663,7 @@ button {
 }
 
 .ideas .titlepage h2 {
-     color: #02246a;
+     color: #C4C4C4;
 }
 
 .border_trbl {
@@ -683,7 +683,7 @@ button {
      color: #fff;
      font-size: 40px;
      font-weight: bold;
-     background: #02246a;
+     background: #C4C4C4;
      width: 180px;
      margin: 0 auto;
      border-radius: 121px;
@@ -723,7 +723,7 @@ button {
 }
 
 .testimonial .titlepage h2 {
-     color: #02246a;
+     color: #C4C4C4;
 }
 
 .testimonial .titlepage p {
@@ -743,7 +743,7 @@ button {
 }
 
 .test_icon i {
-     border: #02246a solid 9px;
+     border: #C4C4C4 solid 9px;
      border-radius: 40px;
 }
 
@@ -806,7 +806,7 @@ button {
 }
 
 .contact .titlepage h2 {
-     color: #02246a;
+     color: #C4C4C4;
 }
 
 .main_form {
@@ -814,7 +814,7 @@ button {
 }
 
 .main_form .contactus {
-     border: #02246a solid 1px;
+     border: #C4C4C4 solid 1px;
      margin-bottom: 25px;
      width: 100%;
      height: 47px;
@@ -828,7 +828,7 @@ button {
 }
 
 .main_form .contactus1 {
-     border: #02246a solid 1px;
+     border: #C4C4C4 solid 1px;
      margin-bottom: 25px;
      width: 100%;
      height: 47px;
@@ -857,7 +857,7 @@ button {
 }
 
 .main_form .send_btn:hover {
-     background-color: #02246a;
+     background-color: #C4C4C4;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -882,7 +882,7 @@ button {
 /** footer **/
 
 .footer {
-     background: #02246a;
+     background: #C4C4C4;
      padding-top: 115px;
      text-align: center;
 }
@@ -925,7 +925,7 @@ ul.social_icon li a {
      font-size: 25px;
      border-radius: 30px;
      margin: 0 3px;
-     color: #02246a;
+     color: #C4C4C4;
 }
 
 ul.social_icon li a:hover {
@@ -1053,16 +1053,16 @@ ul.link_menu li a:hover {
 /** inner page css **/
 
 .inner_header .header {
-     background: #02246a;
+     background: #C4C4C4;
      position: inherit;
 }
 
-.yellow_darkbg .titlepage {
+.purple_darkbg .titlepage {
      padding-bottom: 0;
 }
 
-.yellow_darkbg {
-     background: #f8c659;
+.purple_darkbg {
+     background: #9D00FF;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -1074,7 +1074,7 @@ ul.link_menu li a:hover {
 }
 
 .about_page .team .titlepage h3 {
-     color: #02246a;
+     color: #C4C4C4;
 }
 
 .about_page .team .titlepage p {
@@ -1104,7 +1104,7 @@ ul.link_menu li a:hover {
      font-size: 30px;
      line-height: 30px;
      padding: 30px 0px 40px 0px;
-     color: #02246a;
+     color: #C4C4C4;
 }
 
 .blog .blog_box figure {
