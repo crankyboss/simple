@@ -261,7 +261,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #fff;
+     color: #b6b6b6;
      font-size: 17px;
      line-height: 20px;
      font-weight: 500;
@@ -269,7 +269,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #fec955;
+     color: #575757;
      text-decoration: underline !important;
 }
 
@@ -277,7 +277,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fec955;
+     color: #000000;
      text-decoration: underline !important;
 }
 
@@ -300,6 +300,16 @@ button {
      color: #fff;
      line-height: 40px;
 }
+
+.logo {
+     width: 50px;
+     height: 50px;
+ }
+ 
+ .logo img {
+     max-width: 100%;
+     max-height: 100%;
+ }
 
 
 /** banner section **/
@@ -448,7 +458,7 @@ button {
 
 .titlepage h2 {
      font-size: 40px;
-     color: #C4C4C4;
+     color: #ffffff;
      line-height: 55px;
      padding: 0;
 }
@@ -631,258 +641,10 @@ button {
 /** end services section **/
 
 
-/** New Ideas  section **/
-
-.ideas {
-     padding: 90px 0;
-     background-color: #fff;
-     position: relative;
-}
-
-.ideas::before {
-     position: absolute;
-     bottom: 0;
-     right: 38px;
-     content: "";
-     background: url(../images/iadius_cross.png);
-     background-repeat: no-repeat;
-     width: 420px;
-     height: 100%;
-}
-
-.ideas .titlepage {
-     text-align: left;
-}
-
-.ideas .titlepage p {
-     color: #2a2b2b;
-     display: block;
-     font-size: 17px;
-     font-weight: 400;
-     line-height: 30px;
-}
-
-.ideas .titlepage h2 {
-     color: #C4C4C4;
-}
-
-.border_trbl {
-     border: #0e0f0f87 solid 1px;
-     padding: 50px 0;
-     box-shadow: 9px 0px 30px rgba(57, 56, 56, 0.2);
-     background: #fff;
-     z-index: 999999;
-     position: relative;
-}
-
-.ideas_box {
-     text-align: center;
-}
-
-.ideas_box h3 {
-     color: #fff;
-     font-size: 40px;
-     font-weight: bold;
-     background: #C4C4C4;
-     width: 180px;
-     margin: 0 auto;
-     border-radius: 121px;
-     height: 180px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     padding: 0;
-     border: #ffca56 solid 11px;
-}
-
-.ideas_box p {
-     color: #2a2b2b;
-     font-size: 20px;
-     font-weight: bold;
-     line-height: 20px;
-     margin-top: 20px;
-}
-
-.margin_bottom {
-     margin-bottom: 30px;
-}
-
-
-/** end New Ideas  section **/
-
-
-/** testimonial section **/
-
-.testimonial {
-     padding: 0px 0px 90px 0px;
-     background: #fff;
-}
-
-.testimonial .titlepage {
-     text-align: left;
-}
-
-.testimonial .titlepage h2 {
-     color: #C4C4C4;
-}
-
-.testimonial .titlepage p {
-     font-size: 17px;
-     line-height: 28px;
-}
-
-.test_box {
-     text-align: left;
-}
-
-.test_icon {
-     display: flex;
-     align-items: center;
-     flex-wrap: wrap;
-     padding-top: 30px;
-}
-
-.test_icon i {
-     border: #C4C4C4 solid 9px;
-     border-radius: 40px;
-}
-
-.test_box h4 {
-     font-size: 17px;
-     color: #030305;
-     line-height: 28px;
-     display: block;
-     font-weight: 500;
-     text-align: left;
-     padding: 0px 0px 0px 13px;
-}
-
-.yellow {
-     color: #ffca56;
-}
-
-.test_box p {
-     font-size: 16px;
-     line-height: 28px;
-     color: #222221;
-     text-align: left;
-     border: #bcbcbc solid 1px;
-     padding: 35px 30px;
-     border-radius: 5px;
-     font-weight: 400;
-}
-
-
-/** end testimonial section **/
-
-
-/** contact section **/
-
-.contact {
-     background: url(../images/contact.png);
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
-     padding: 0px 0 90px 0;
-     position: relative;
-     background: inherit;
-}
-
-.contact::before {
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     content: "";
-     background: url(../images/con_cross.png);
-     background-repeat: no-repeat;
-     width: 100%;
-     height: 100%;
-     background-size: 100% 100%;
-}
-
-.contact .titlepage {
-     text-align: left;
-     padding-bottom: 107px;
-}
-
-.contact .titlepage h2 {
-     color: #C4C4C4;
-}
-
-.main_form {
-     margin-right: -32px;
-}
-
-.main_form .contactus {
-     border: #C4C4C4 solid 1px;
-     margin-bottom: 25px;
-     width: 100%;
-     height: 47px;
-     background: transparent;
-     color: #dfdfdf;
-     font-size: 18px;
-     font-weight: normal;
-     border-right: inherit;
-     border-left: inherit;
-     border-top: inherit;
-}
-
-.main_form .contactus1 {
-     border: #C4C4C4 solid 1px;
-     margin-bottom: 25px;
-     width: 100%;
-     height: 47px;
-     background: transparent;
-     color: #dfdfdf;
-     font-size: 18px;
-     font-weight: normal;
-     border-right: inherit;
-     border-left: inherit;
-     border-top: inherit;
-     margin-top: 60px;
-}
-
-.main_form .send_btn {
-     font-size: 22px;
-     transition: ease-in all 0.5s;
-     background-color: #ffca56;
-     text-transform: uppercase;
-     color: #fff;
-     padding: 12px 0px;
-     max-width: 195px;
-     width: 100%;
-     display: block;
-     margin-top: 30px !important;
-     font-weight: 500;
-}
-
-.main_form .send_btn:hover {
-     background-color: #C4C4C4;
-     transition: ease-in all 0.5s;
-     color: #fff;
-}
-
-#request *::placeholder {
-     color: #dfdfdf;
-     opacity: 1;
-}
-
-.map figure {
-     margin: 0;
-}
-
-.map figure img {
-     width: 100%;
-}
-
-
-/** end contact section **/
-
-
 /** footer **/
 
 .footer {
-     background: #C4C4C4;
+     background: #000000;
      padding-top: 115px;
      text-align: center;
 }
@@ -1051,6 +813,13 @@ ul.link_menu li a:hover {
 
 
 /** inner page css **/
+.section {
+     margin-bottom: 1.5rem;
+}
+
+.section h3 {
+     margin-top: 0.8rem;
+}
 
 .inner_header .header {
      background: #FFFFFF;
@@ -1069,21 +838,16 @@ ul.link_menu li a:hover {
      height: 122px;
 }
 
-.about_page .team {
-     padding-bottom: 90px;
+.black_darkbg .titlepage {
+     padding-bottom: 0;
 }
 
-.about_page .team .titlepage h3 {
-     color: #C250F2;
-}
-
-.about_page .team .titlepage p {
-     float: left;
-}
-
-.contact_page .contact {
-     padding-top: 160px;
-     margin-top: 90px;
+.black_darkbg {
+     background: #000000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 122px;
 }
 
 .service_page .services {
